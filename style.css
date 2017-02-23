@@ -1,0 +1,66 @@
+html {
+  background-color: pink;
+  font-family: Verdana;
+}
+body {
+  background-color: white;
+  max-width: 600px;
+  padding: 25px 50px 50px;
+  margin: 20px auto;
+  font-weight: bold;
+  box-sizing: border-box;
+  border-radius: 50px;
+}
+h1 {
+  color: hotpink;
+}
+label {
+  display: block;
+  color: brown;
+  margin-bottom: 5px;
+}
+input, textarea, select {
+  box-sizing: border-box;
+  width: 100%;
+  padding: .3em 1em;
+  font-size: 1.2em;
+  border-radius: 20px;
+  border: none;
+  background-color: pink;
+  color: white;
+  margin-bottom: 15px;
+}
+input[type="checkbox"] {
+  display: inline;
+  width: auto;
+  margin-bottom: 5px;
+}
+input[type="submit"] {
+  display: block;
+  background-color: hotpink;
+  color: white;
+  width: auto;
+  border: none;
+  padding: .5em 1em;
+  margin-top: 1em;
+  font-family: inherit;
+  font-weight: bold;
+  border-radius: .25em;
+  margin: 1em auto 0;
+}
+/* neutral feedback */
+.feedback {
+  background-color: pink;
+  border-radius: 20px;
+  padding: .75em;
+  margin: 20px;
+  color: white;
+}
+.success {
+  background-color: hotpink;
+}
+
+.error {
+  background-color: brown;
+  color: white;
+}
